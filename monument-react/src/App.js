@@ -1,6 +1,8 @@
 import React from 'react';
 import Landing from './components/Landing/Landing';
+import Blog from './components/Blog/Blog';
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
 
@@ -9,6 +11,8 @@ function App() {
     <>
       <NavBar />
       <Landing />
+      {/* <Blog /> */}
+      <Footer />
     </>
   );
 }

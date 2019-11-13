@@ -4,7 +4,6 @@ import Archive from './Archive/Archive';
 import About from './About/About';
 import Gallery from './Gallery/Gallery';
 import Contact from './Contact/Contact';
-import Footer from './Footer/Footer';
 
 function Landing() {
   return (
@@ -14,7 +13,6 @@ function Landing() {
       <About />
       <Gallery />
       <Contact />
-      <Footer />
     </div>
   );
 }
